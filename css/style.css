@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+/* Main */
+.my-schedule {
+    border: 2px outset gray;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.my-schedule td,
+.my-schedule th {
+    border: 2px outset gray;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+    max-width: 60px;
+    max-height: 30px;
+}
+
+.my-schedule thead tr th {
+    background-color: rgba(0, 123, 255, 0.8);
+    color: #ffffff;
+    width: 13%;
+}
+
+.my-schedule thead tr th:first-child {
+    width: 9%;
+}
+
+.my-schedule tbody tr {
+    height: 40px;
+}
+
+.my-schedule tbody tr:nth-of-type(odd)>th {
+    background-color: white;
+}
+
+.my-schedule tbody tr:nth-of-type(even)>th {
+    background-color: lightgray;
+}
+
+.sleep-cell {
+    background-color: rgb(211, 192, 211);
+}
+
+.meal-cell {
+    background-color: rgb(255, 209, 122);
+}
+
+.class-cell {
+    background-color: rgb(255, 101, 101);
+}
+
+.internship-cell {
+    background-color: rgb(161, 233, 255);
+}
+
+.work-cell {
+    background-color: rgb(144, 238, 192);
+}
+
+.drive-cell {
+    background-color: rgb(238, 242, 206);
+}
+
+.goof-cell {
+    background-color: rgb(255, 182, 194);
+}
+
+/* For mobile */
+/* @media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px) {
+    table, thead, tbody, tr, th, td {
+        display: block;
+    }
+} */

@@ -1,1 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaimer's Schedule</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- 
+
+    Homework 11 will feature a schedule of what your week looks like using HTML Tables. 
+    Use the attached files below this section as your template. 
+    Please be as thorough as possible in describing each 24 hour period of each day (7 days)
+
+    1. Create a Github Repository named: web-tables
+    2. Ensure all images are in images folder, and stylesheets are in css folder
+    3. Create an html page called: index.html
+    4. When you are complete please upload a copy to both GitHub repo and your web hosting server.
+    5. When you are done submit the two urls: one to your github repository and the second to the html page on your web hosting server.
+    6. You will need at least 65 points to pass. Grading will be based on the following criteria:
+    
+    - Proper HTML syntax structure - 20 points.
+    - Table Styling (CSS) - 20 points
+    - Proper use of Table Headers  - 10 points.
+    - Proper use of Table Data - 10 points.
+    - Proper use of Table Groupings - 20 points.
+    - Proper use of Row Span - 10 points.
+    - Proper use of Column Span -10 points.
+
+    If you have additional questions please feel free to send me an email.
+
+    -->
+</head>
+
+<body>
+    <nav>
+        <a href="/">Home</a>
+    </nav>
+    <hr>
+    <header>
+        <h1>
+            Jaimer's Weekly Schedule
+        </h1>
+    </header>
+    <!-- <table class="my-schedule">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>00:00</th>
+                <th>01:00</th>
+                <th>02:00</th>
+                <th>03:00</th>
+                <th>04:00</th>
+                <th>05:00</th>
+                <th>06:00</th>
+                <th>07:00</th>
+                <th>08:00</th>
+                <th>09:00</th>
+                <th>10:00</th>
+                <th>11:00</th>
+                <th>12:00</th>
+                <th>13:00</th>
+                <th>14:00</th>
+                <th>15:00</th>
+                <th>16:00</th>
+                <th>17:00</th>
+                <th>18:00</th>
+                <th>19:00</th>
+                <th>20:00</th>
+                <th>21:00</th>
+                <th>22:00</th>
+                <th>23:00</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Sun.</th>
+                <td class="sleep-cell" colspan="9">Sleep</td>
+                <td colspan="15">Goof off</td>
+            </tr>
+            <tr>
+                <th>Mon.</th>
+                <td class="sleep-cell" colspan="7">Sleep</td>
+                <td colspan="2">Breakfast & Bed</td>
+                <td class="internship-cell" colspan="8">Internship</td>
+            </tr>
+            <tr>
+                <th>Tues.</th>
+                <td class="sleep-cell" colspan="9">Sleep</td>
+                <td colspan="5">Work on assignments</td>
+                <td class="class-cell" colspan="2">EC211</td>
+            </tr>
+            <tr>
+                <th>Wed.</th>
+                <td class="sleep-cell" colspan="7" rowspan="3">Sleep</td>
+                <td colspan="2">Work on assignments</td>
+                <td class="class-cell" colspan="2">AC227</td>
+                <td colspan="2">Work on assignments</td>
+                <td class="internship-cell" colspan="4">Internship</td>
+            </tr>
+            <tr>
+                <th>Thurs.</th>
+                <td>Goof off</td>
+                <td class="class-cell" colspan="2">MG206</td>
+                <td colspan="5">Work on assignments</td>
+                <td class="class-cell" colspan="2">CS227</td>
+            </tr>
+            <tr>
+                <th>Fri.</th>
+                <td colspan="2">Breakfast & Bed</td>
+                <td class="internship-cell" colspan="8">Internship</td>
+            </tr>
+            <tr>
+                <th>Sat.</th>
+                <td class="sleep-cell" colspan="9">Sleep</td>
+                <td colspan="15">Goof off</td>
+            </tr>
+        </tbody>
+    </table> -->
+
+
+    <table class="my-schedule">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Sun.</th>
+                <th>Mon.</th>
+                <th>Tues.</th>
+                <th>Wed.</th>
+                <th>Thurs.</th>
+                <th>Fri.</th>
+                <th>Sat.</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">00:00</th>
+                <td class="sleep-cell" rowspan="18">Sleep</td>
+                <td class="sleep-cell" rowspan="14">Sleep</td>
+                <td class="sleep-cell" rowspan="18">Sleep</td>
+                <td class="sleep-cell" rowspan="14" colspan="3">Sleep</td>
+                <td class="sleep-cell" rowspan="18">Sleep</td>
+            </tr>
+            <tr>
+                <th scope="row">00:30</th>
+            </tr>
+            <tr>
+                <th scope="row">01:00</th>
+            </tr>
+            <tr>
+                <th scope="row">01:30</th>
+            </tr>
+            <tr>
+                <th scope="row">02:00</th>
+            </tr>
+            <tr>
+                <th scope="row">02:30</th>
+            </tr>
+            <tr>
+                <th scope="row">03:00</th>
+            </tr>
+            <tr>
+                <th scope="row">03:30</th>
+            </tr>
+            <tr>
+                <th scope="row">04:00</th>
+            </tr>
+            <tr>
+                <th scope="row">04:30</th>
+            </tr>
+            <tr>
+                <th scope="row">05:00</th>
+            </tr>
+            <tr>
+                <th scope="row">05:30</th>
+            </tr>
+            <tr>
+                <th scope="row">06:00</th>
+            </tr>
+            <tr>
+                <th scope="row">06:30</th>
+            </tr>
+            <tr>
+                <th scope="row">07:00</th>
+                <td class="meal-cell">Breakfast</td>
+                <td class="meal-cell" colspan="3">Breakfast</td>
+            </tr>
+            <tr>
+                <th scope="row">07:30</th>
+                <td class="goof-cell" rowspan="3">Goof off</td>
+                <td class="drive-cell" colspan="2">Drive to NMC</td>
+                <td class="goof-cell" rowspan="3">Goof off</td>
+            </tr>
+            <tr>
+                <th scope="row">08:00</th>
+                <td class="work-cell" rowspan="4">Work on assignments</td>
+                <td class="class-cell" rowspan="3">MG206</td>
+            </tr>
+            <tr>
+                <th scope="row">08:30</th>
+            </tr>
+            <tr>
+                <th scope="row">09:00</th>
+                <td class="meal-cell">Breakfast</td>
+                <td class="internship-cell" rowspan="6">Internship</td>
+                <td class="meal-cell">Breakfast</td>
+                <td class="internship-cell" rowspan="6">Internship</td>
+                <td class="meal-cell">Breakfast</td>
+            </tr>
+            <tr>
+                <th scope="row">09:30</th>
+                <td class="goof-cell" rowspan="5">Goof off</td>
+                <td class="work-cell" rowspan="5">Work on assignments</td>
+                <td class="work-cell" rowspan="5">Work on assignments</td>
+                <td class="goof-cell" rowspan="5">Goof off</td>
+            </tr>
+            <tr>
+                <th scope="row">10:00</th>
+                <td class="class-cell" rowspan="3">AC227</td>
+            </tr>
+            <tr>
+                <th scope="row">10:30</th>
+            </tr>
+            <tr>
+                <th scope="row">11:00</th>
+            </tr>
+            <tr>
+                <th scope="row">11:30</th>
+                <td class="work-cell">Work on assignments</td>
+            </tr>
+            <tr>
+                <th scope="row">12:00</th>
+                <td class="meal-cell" colspan="7">Lunch</td>
+            </tr>
+            <tr>
+                <th scope="row">12:30</th>
+                <td class="goof-cell" rowspan="11">Goof off</td>
+                <td class="internship-cell" rowspan="9">Internship</td>
+                <td class="drive-cell">Drive to NMC</td>
+                <td class="drive-cell">Drive to internship</td>
+                <td class="work-cell" rowspan="6">Work on assignments</td>
+                <td class="internship-cell" rowspan="9">Internship</td>
+                <td class="goof-cell" rowspan="14">Goof off</td>
+            </tr>
+            <tr>
+                <th scope="row">13:00</th>
+                <td class="work-cell" rowspan="2">Work on assignments</td>
+                <td class="internship-cell" rowspan="8">Internship</td>
+            </tr>
+            <tr>
+                <th scope="row">13:30</th>
+            </tr>
+            <tr>
+                <th scope="row">14:00</th>
+                <td class="class-cell" rowspan="3">EC211</td>
+            </tr>
+            <tr>
+                <th scope="row">14:30</th>
+            </tr>
+            <tr>
+                <th scope="row">15:00</th>
+            </tr>
+            <tr>
+                <th scope="row">15:30</th>
+                <td class="drive-cell">Drive home</td>
+                <td class="class-cell" rowspan="3">CS222</td>
+            </tr>
+            <tr>
+                <th scope="row">16:00</th>
+                <td class="goof-cell" rowspan="7">Goof off</td>
+            </tr>
+            <tr>
+                <th scope="row">16:30</th>
+            </tr>
+            <tr>
+                <th scope="row">17:00</th>
+                <td class="goof-cell" rowspan="5">Goof off</td>
+                <td class="goof-cell" rowspan="5">Goof off</td>
+                <td class="drive-cell">Drive home</td>
+                <td class="goof-cell" rowspan="5">Goof off</td>
+            </tr>
+            <tr>
+                <th scope="row">17:30</th>
+                <td class="goof-cell" rowspan="4">Goof off</td>
+            </tr>
+            <tr>
+                <th scope="row">18:00</th>
+                <td class="work-cell" rowspan="3">Work on assignments</td>
+            </tr>
+            <tr>
+                <th scope="row">18:30</th>
+            </tr>
+            <tr>
+                <th scope="row">19:00</th>
+            </tr>
+            <tr>
+                <th scope="row">19:30</th>
+                <td class="meal-cell" colspan="7">Dinner</td>
+            </tr>
+            <tr>
+                <th scope="row">20:00</th>
+                <td class="work-cell" rowspan="4" colspan="7">Work on assignments</td>
+            </tr>
+            <tr>
+                <th scope="row">20:30</th>
+            </tr>
+            <tr>
+                <th scope="row">21:00</th>
+            </tr>
+            <tr>
+                <th scope="row">21:30</th>
+            </tr>
+            <tr>
+                <th scope="row">22:00</th>
+                <td class="goof-cell" rowspan="4" colspan="7">Goof off</td>
+            </tr>
+            <tr>
+                <th scope="row">22:30</th>
+            </tr>
+            <tr>
+                <th scope="row">23:00</th>
+            </tr>
+            <tr>
+                <th scope="row">23:30</th>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
